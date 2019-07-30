@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Homework 3</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Homework 3</h1>
+        <div class="mycontrols">
+            <label for="myslider">Div count</label>: <span id="myoutput"></span>
+            <input id="myslider" type="range" min="1" max="100" value="1" />
+            <br />
+            <label for="myfizz">Fizz value</label>
+            <input id="myfizz" type="number" min="1" max="100" value="3" />
+            <br />
+            <label for="mybuzz">Buzz value</label>
+            <input id="mybuzz" type="number" min="1" max="100" value="5" />
+        </div>
+        <div class="mybtns">
+            <button class="btn btn-success" onclick="generateDivs()">Generate DIVs</button>
+            <button class="btn btn-danger" onclick="clearDivs()">Clear DIVs</button>
+        </div>
+        <hr />
+        <main id="mymain"></main>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>
