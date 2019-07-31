@@ -26,7 +26,7 @@ function generateDivs() {
     var myBuzzValue = document.getElementById('mybuzz').value;
 
     var mydivs = [];
-    for (i = 1; i <= mysliderValue; i++) {
+    for (var i = 1; i <= mysliderValue; i++) {
         var mydiv = document.createElement('div');
 
         // set id
@@ -49,12 +49,12 @@ function generateDivs() {
 
         mydivs.push(mydiv);
 
-        // 1 row with 4 columns
-        if (i % 4 === 0) {
-            addNewRow(mydivs);
-            // reset mydivs array
-            mydivs = [];
-        }
+        // 1 row with 6 columns
+        // if (i % 10 === 0) {
+        //     addNewRow(mydivs);
+        //     // reset mydivs array
+        //     mydivs = [];
+        // }
     }
 
     // add remaining rows if any
@@ -65,7 +65,7 @@ function addNewRow(mydivs) {
     var mycolumns = [];
     for (var j = 0; j < mydivs.length; j++) {
         var mycolumn = document.createElement('div');
-        mycolumn.className = 'col-sm-3'
+        mycolumn.className = 'col';
 
         // add each div block to column
         mycolumn.appendChild(mydivs[j]);
