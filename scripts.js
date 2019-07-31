@@ -48,13 +48,6 @@ function generateDivs() {
         }
 
         mydivs.push(mydiv);
-
-        // 1 row with 6 columns
-        // if (i % 10 === 0) {
-        //     addNewRow(mydivs);
-        //     // reset mydivs array
-        //     mydivs = [];
-        // }
     }
 
     // add remaining rows if any

@@ -14,24 +14,28 @@
     background-color: coral;
     padding: 10px;
     margin: 5px;
+    border: 2px solid rgb(248, 168, 138);
 }
 
 .violet {
     background-color: violet;
     padding: 10px;
     margin: 5px;
+    border: 2px solid rgb(235, 177, 235);
 }
 
 .green {
     background-color: limegreen;
     padding: 10px;
     margin: 5px;
+    border: 2px solid rgb(120, 199, 120);
 }
 
 .yellow {
     background-color: yellow;
     padding: 10px;
     margin: 5px;
+    border: 2px solid rgb(250, 250, 125);
 }
 
 /* mobile vertical */
