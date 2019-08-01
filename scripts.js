@@ -35,7 +35,7 @@ function generateDivs() {
         // set color and text
         if (i % myFizzValue === 0 && i % myBuzzValue === 0) {
             mydiv.className = 'coral';
-            mydiv.innerText = 'FzBz';
+            mydiv.innerText = 'FizzBuzz';
         } else if (i % myFizzValue === 0) {
             mydiv.className = 'violet';
             mydiv.innerText = 'Fizz';
